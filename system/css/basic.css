@@ -1,0 +1,59 @@
+body {
+	margin:0 auto;
+	background:#e6e6e6;
+	font-family:Lato;
+}
+section.eden {
+	padding-top:100px;
+	width:460px;
+	margin:0 auto;
+}
+.edenSearch {
+	margin-bottom:20px;
+}
+.edenSearch input {
+	width:100%;
+	border:0;
+	padding:10px;
+	font-size:18px;
+	text-align:center;
+    box-shadow: 0px 0px 8px 0px black;
+	outline: none;
+}
+
+.edenSearch input:focus {
+	box-shadow: 0px 0px 12px 0px black;
+}
+
+section.edenResults {
+	width:1000px;
+	height:1000px;
+	margin:0 auto;
+	box-shadow: 0px 0px 8px 0px black;
+	background:white;
+	display:none;
+}
+
+.resultItem {
+	width: 600px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.itemLink {
+	
+}
+
+.itemLink a{
+	text-decoration:none;
+	font-size:25px;
+}
+
+.itemUrl {
+	font-size:15px;
+	color:red;
+}
+
+.itemDescription {
+	font-size:15px;
+}
